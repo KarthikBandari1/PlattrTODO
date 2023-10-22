@@ -1,0 +1,54 @@
+/* App.css or TodoItem.css (based on your project structure) */
+.todo-item-container {
+  margin-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.delete-icon-container {
+  background-color: transparent;
+}
+.delete-icon {
+  padding: 15px;
+  color: black;
+}
+.delete {
+  font-size: 25px;
+}
+.label-container {
+  background-color: #e6f6ff;
+  width: 70%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+  justify-content: space-around;
+  align-items: center;
+  height: 9vh;
+}

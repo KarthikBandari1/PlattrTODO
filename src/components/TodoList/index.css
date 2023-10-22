@@ -1,0 +1,81 @@
+/* App.css or TodoList.css (based on your project structure) */
+.todos-bg-container {
+  background-color: #f9fbfe;
+  height: 100vh;
+}
+
+@media (min-width: 640px) and (max-width: 1007px) {
+  .todos-bg-container {
+    width: 100vw;
+  }
+  .todo-cont {
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 1008px) {
+  .todos-bg-container {
+    width: 100vw;
+  }
+  .todo-cont {
+    margin-left: 200px;
+  }
+}
+.todos-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-task-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+@media (min-width: 600px) {
+  .todo-user-input {
+    width: 70%;
+  }
+}
+
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: 'Roboto';
+  font-size: 18px;
+  border-width: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 5px 20px;
+}
+
+.todo-items-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.todo-items-container {
+  margin: 0px;
+  padding: 0px;
+}
+
+.filter-button {
+  margin: 5px;
+}
